@@ -53,7 +53,8 @@ while (l1 !== null && l2 !== null) {
     }
 }
 
-//If one list is exhausted and the other is not, complete the list.
+//If one list is exhausted and the other is not, complete the answer
+//with the incompleted list.
 temp.next = l1 == null ? l2 : l1 
 
 return newNode.next
